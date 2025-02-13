@@ -1,0 +1,4 @@
+﻿> Holds up the Helper classes like validations and configurations.
+if created
+
+> Just added to keep the code clean and organized.

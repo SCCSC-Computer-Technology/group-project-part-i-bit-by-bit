@@ -1,0 +1,11 @@
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\bin\Debug\Soccer Insights.exe.config
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\bin\Debug\Soccer Insights.exe
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\bin\Debug\Soccer Insights.pdb
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\obj\Debug\Soccer Insights.csproj.AssemblyReference.cache
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\obj\Debug\Soccer_Insights.Properties.Resources.resources
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\obj\Debug\Soccer Insights.csproj.GenerateResource.cache
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\obj\Debug\Soccer Insights.csproj.CoreCompileInputs.cache
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\obj\Debug\Soccer Insights.exe
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\obj\Debug\Soccer Insights.pdb
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\obj\Debug\Soccer_Insights.SplashView.resources
+C:\repos\Programs - Practices\C# Course - 2025\Soccer Insights\obj\Debug\Soccer_Insights.UI.LoginView.resources

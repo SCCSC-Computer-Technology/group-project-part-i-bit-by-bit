@@ -1,0 +1,1 @@
+﻿> Holds the WinForms views like Dashboard, Player Stats, Team Stats, etc.
