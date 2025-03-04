@@ -66,11 +66,11 @@ The Multi-File-Data-Service is responsible for handling sports data from multipl
 
 ---
 
-## My Continuous Efforts to Keep the Main Service Updated
+## My Continuous Efforts to Keep the Main + Helper Services Updated and Efficient working
 
 | Date       | Update / Fix Done             | Short Description                                  |
 |------------|-------------------------------|----------------------------------------------------|
-| 02/17/25   | Initial Setup                 | Created the initial setup                          |
+| 02/17/25   | Initial Setup (Work Mode)     | Created the initial setup                          |
 | 02/24/25   | Optimized CSV Processing      | Improved CSV parsing with CsvHelper config         |
 | 02/28/25   | Implemented ETag Caching      | Prevented unnecessary CSV re-fetching              |
 | 02/28/25   | Fixed Header Duplication      | Ensured unique column names                        |
@@ -78,7 +78,11 @@ The Multi-File-Data-Service is responsible for handling sports data from multipl
 | 03/02/25   | Improved Thread Safety        | Used `ConcurrentBag<DataRow>` for batch processing |
 | 03/02/25   | Enhanced Logging System       | Stored errors in log files instead of `MessageBox` |
 | 03/02/25   | Fixed Column Count Mismatch   | Ensured data aligns with `_combinedDataTable`      |
-| 03/05/25   | Improved UI Responsiveness    | Replaced `MessageBox.Show()` with async UI updates |
+| 03/04/25   | Improved UI Responsiveness    | Replaced `MessageBox.Show()` with async UI updates |
+| 03/04/25	 | Minor Improved performance	 | Avoided multiple enumerations					  |
+| 03/04/25	 | Comment Updates				 | Updated my comments for better understanding		  |
+| 03/04/25   | Empty Result Handling		 | Improved understanding							  |
+| 03/04/25   | Code Optimization			 | Cleaned code structure							  |
 
 **Note:** To view necessary updates, I have commented `// Updated: ...` in the source code.
 
