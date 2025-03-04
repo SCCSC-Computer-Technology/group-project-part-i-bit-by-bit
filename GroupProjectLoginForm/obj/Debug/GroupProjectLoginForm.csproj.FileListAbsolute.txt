@@ -1,0 +1,13 @@
+C:\Users\kathe\source\repos\GroupProjectLoginForm\bin\Debug\GroupProjectLoginForm.exe.config
+C:\Users\kathe\source\repos\GroupProjectLoginForm\bin\Debug\GroupProjectLoginForm.exe
+C:\Users\kathe\source\repos\GroupProjectLoginForm\bin\Debug\GroupProjectLoginForm.pdb
+C:\Users\kathe\source\repos\GroupProjectLoginForm\obj\Debug\GroupProjectLoginForm.csproj.AssemblyReference.cache
+C:\Users\kathe\source\repos\GroupProjectLoginForm\obj\Debug\GroupProjectLoginForm.Properties.Resources.resources
+C:\Users\kathe\source\repos\GroupProjectLoginForm\obj\Debug\GroupProjectLoginForm.csproj.GenerateResource.cache
+C:\Users\kathe\source\repos\GroupProjectLoginForm\obj\Debug\GroupProjectLoginForm.csproj.CoreCompileInputs.cache
+C:\Users\kathe\source\repos\GroupProjectLoginForm\obj\Debug\GroupProjectLoginForm.exe
+C:\Users\kathe\source\repos\GroupProjectLoginForm\obj\Debug\GroupProjectLoginForm.pdb
+C:\Users\kathe\source\repos\GroupProjectLoginForm\bin\Debug\User.mdf
+C:\Users\kathe\source\repos\GroupProjectLoginForm\bin\Debug\User_log.ldf
+C:\Users\kathe\source\repos\GroupProjectLoginForm\obj\Debug\GroupProjectLoginForm.formSignUp.resources
+C:\Users\kathe\source\repos\GroupProjectLoginForm\obj\Debug\GroupProjectLoginForm.formLogin.resources
