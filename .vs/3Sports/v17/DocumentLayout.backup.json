@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|solutionrelative:sport services\\multifiledataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|c:\\repos\\programs - practices\\c# course - 2025\\3sports\\sport services\\teamperfanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|solutionrelative:sport services\\teamperfanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|c:\\repos\\programs - practices\\c# course - 2025\\3sports\\ui\\soccerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|solutionrelative:ui\\soccerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|c:\\repos\\programs - practices\\c# course - 2025\\3sports\\docs\\database guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "AbsoluteMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|c:\\repos\\programs - practices\\c# course - 2025\\3sports\\ui\\soccerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|solutionrelative:ui\\soccerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\docs\\database guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|solutionrelative:docs\\database guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\sport services\\teamperfanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|solutionrelative:sport services\\teamperfanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +43,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SoccerView.cs [Design]",
+              "DocumentMoniker": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\UI\\SoccerView.cs",
+              "RelativeDocumentMoniker": "UI\\SoccerView.cs",
+              "ToolTip": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\UI\\SoccerView.cs [Design]",
+              "RelativeToolTip": "UI\\SoccerView.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T18:21:49.066Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Database Guide.md",
               "DocumentMoniker": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\docs\\Database Guide.md",
               "RelativeDocumentMoniker": "docs\\Database Guide.md",
               "ToolTip": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\docs\\Database Guide.md",
               "RelativeToolTip": "docs\\Database Guide.md",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAuwFYAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAuwFMAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2025-03-04T17:58:50.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TeamPerfAnalysisService.cs",
-              "DocumentMoniker": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\Sport Services\\TeamPerfAnalysisService.cs",
-              "RelativeDocumentMoniker": "Sport Services\\TeamPerfAnalysisService.cs",
-              "ToolTip": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\Sport Services\\TeamPerfAnalysisService.cs",
-              "RelativeToolTip": "Sport Services\\TeamPerfAnalysisService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T17:54:26.819Z",
               "EditorCaption": ""
             },
             {
@@ -66,10 +73,35 @@
               "RelativeDocumentMoniker": "Sport Services\\MultiFileDataService.cs",
               "ToolTip": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\Sport Services\\MultiFileDataService.cs",
               "RelativeToolTip": "Sport Services\\MultiFileDataService.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAAAHYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T17:54:13.12Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SoccerView.cs",
+              "DocumentMoniker": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\UI\\SoccerView.cs",
+              "RelativeDocumentMoniker": "UI\\SoccerView.cs",
+              "ToolTip": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\UI\\SoccerView.cs",
+              "RelativeToolTip": "UI\\SoccerView.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwGQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T18:21:51.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeamPerfAnalysisService.cs",
+              "DocumentMoniker": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\Sport Services\\TeamPerfAnalysisService.cs",
+              "RelativeDocumentMoniker": "Sport Services\\TeamPerfAnalysisService.cs",
+              "ToolTip": "C:\\repos\\Programs - Practices\\C# Course - 2025\\3Sports\\Sport Services\\TeamPerfAnalysisService.cs",
+              "RelativeToolTip": "Sport Services\\TeamPerfAnalysisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T17:54:26.819Z"
             }
           ]
         }

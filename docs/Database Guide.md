@@ -81,7 +81,7 @@ The Multi-File-Data-Service is responsible for handling sports data from multipl
 | 03/04/25   | Improved UI Responsiveness    | Replaced `MessageBox.Show()` with async UI updates |
 | 03/04/25	 | Minor Improved performance	 | Avoided multiple enumerations					  |
 | 03/04/25	 | Comment Updates				 | Updated my comments for better understanding		  |
-| 03/04/25   | Empty Result Handling		 | Improved understanding							  |
+| 03/04/25   | Empty Result Handling		 | Early exit for empty matches							  |
 | 03/04/25   | Code Optimization			 | Cleaned code structure							  |
 
 **Note:** To view necessary updates, I have commented `// Updated: ...` in the source code.

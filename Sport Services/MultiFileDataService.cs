@@ -1,9 +1,9 @@
-﻿/** 
+﻿/**
  * GROUP PROJECT #1
- * CPT - 206 
- * 
+ * CPT - 206
+ *
  * MULTI-FILE-DATA-SERVICE
-**/
+ **/
 
 using CsvHelper;
 using CsvHelper.Configuration;
@@ -35,11 +35,15 @@ namespace _3Sports.Services
         private readonly object _lock = new object();
         private ConcurrentDictionary<string, (string Content, DateTime LastModified)> _csvCache = new ConcurrentDictionary<string, (string, DateTime)>();
 
-        public MultiFileDataService(List<string> csvUrls, string serviceName = "CSV Data Service")
+        // Logging file path
+        private readonly string _logFilePath;
+
+        public MultiFileDataService(List<string> csvUrls, string serviceName = "CSV Data Service", string logFilePath = "errorLog.txt")
         {
             _csvUrls = csvUrls ?? throw new ArgumentNullException(nameof(csvUrls), "List of CSV Urls cannot be null.");
             _combinedDataTable = new DataTable();
             _serviceName = serviceName;
+            _logFilePath = logFilePath; // Initialize log file path
         }
 
         // Load the data from multiple CSV URLs asynchronously, processes it then merges into a dataTable
@@ -48,7 +52,9 @@ namespace _3Sports.Services
             _combinedDataTable = new DataTable();
             if (csvUrlsWithSeasons == null || !csvUrlsWithSeasons.Any())
             {
-                MessageBox.Show($"[{_serviceName}] No CSV URLs provided.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                string message = $"[{_serviceName}] No CSV URLs provided.";
+                MessageBox.Show(message, "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                Log(message, "Warning"); // Log the warning
                 return;
             }
 
@@ -87,7 +93,9 @@ namespace _3Sports.Services
 
                         if (string.IsNullOrEmpty(csvContent))
                         {
-                            Console.WriteLine($"[{_serviceName}] Empty content received from URL: {csvUrl}");
+                            string message = $"[{_serviceName}] Empty content received from URL: {csvUrl}";
+                            Console.WriteLine(message);
+                            Log(message, "Warning"); // Log empty content warning
                             return;
                         }
 
@@ -148,9 +156,23 @@ namespace _3Sports.Services
                             }
                         }
                     }
+                    catch (HttpRequestException httpEx)
+                    {
+                        string errorMessage = $"[{_serviceName}] HTTP Request Error for {csvUrl}: {httpEx.Message}";
+                        Console.WriteLine(errorMessage);
+                        Log(errorMessage, "Error"); // Log HTTP Request Exceptions
+                    }
+                    catch (CsvHelperException csvEx)
+                    {
+                        string errorMessage = $"[{_serviceName}] CSV Helper Error processing {csvUrl}: {csvEx.Message}";
+                        Console.WriteLine(errorMessage);
+                        Log(errorMessage, "Error"); // Log CSV Helper Exceptions
+                    }
                     catch (Exception ex)
                     {
-                        Console.WriteLine($"[{_serviceName}] Error processing {csvUrl}: {ex.Message}");
+                        string errorMessage = $"[{_serviceName}] General Error processing {csvUrl}: {ex.Message}";
+                        Console.WriteLine(errorMessage);
+                        Log(errorMessage, "Error"); // Log General Exceptions
                     }
                 });
 
@@ -189,7 +211,9 @@ namespace _3Sports.Services
         {
             if (string.IsNullOrWhiteSpace(columnName) || !_combinedDataTable.Columns.Contains(columnName))
             {
-                Console.WriteLine($"[{_serviceName}] Warning: Column '{columnName}' is empty or not found. Returning empty list.");
+                string message = $"[{_serviceName}] Warning: Column '{columnName}' is empty or not found. Returning empty list.";
+                Console.WriteLine(message);
+                Log(message, "Warning"); // Log column not found warning
                 return new List<string>();
             }
 
@@ -204,6 +228,24 @@ namespace _3Sports.Services
         public DataTable GetAllData()
         {
             return _combinedDataTable;
+        }
+
+        // New Updated: Method to log messages to a file
+        private void Log(string message, string logType)
+        {
+            try
+            {
+                // 'true' for appending to the file
+                using (StreamWriter writer = new StreamWriter(_logFilePath, true))
+                {
+                    writer.WriteLine($"{DateTime.Now:yyyy-MM-dd HH:mm:ss} [{logType.ToUpper()}] {_serviceName}: {message}");
+                }
+            }
+            catch (Exception logEx)
+            {
+                // If logging fails, output to debug console (fallback logging)
+                System.Diagnostics.Debug.WriteLine($"Error writing to log file '{_logFilePath}': {logEx.Message}");
+            }
         }
     }
 }
