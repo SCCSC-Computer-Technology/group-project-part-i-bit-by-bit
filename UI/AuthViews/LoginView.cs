@@ -85,7 +85,7 @@ namespace _3Sports.UI
             else
             {
                 // Hides the password
-                txtPassword.PasswordChar = '\u25CF'; // Or '\u25CF' for dots
+                txtPassword.PasswordChar = '\u25CF'; 
             }
         }
     }
