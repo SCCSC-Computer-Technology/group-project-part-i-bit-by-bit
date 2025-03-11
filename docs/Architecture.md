@@ -6,7 +6,7 @@ The Sports Application is a C# Windows application designed to provide an intera
 ## 2. Application Flow
 The application follows this navigation flow:
 - **SplashView** -> Initializes the application and checks authentication state.
-- **AuthView** -> Handles user authentication (Login, Register, Logout).
+- **AuthViews** -> Handles user authentication (Login, Register, Logout).
 - **SportSelectionView** -> Allows users to choose a sport (F1, Rugby, Soccer).
 - **SoccerSportView** -> Displays soccer-specific content, including teams, matches, and stats.
 - **RugbyView** -> Displays rugby-related content and statistics.
@@ -27,10 +27,14 @@ The application follows this navigation flow:
   - Data caching mechanisms.
   - Event handling.
 
+### b. Auth Service Layer
+- Handles authentication logic, including:
+	- Change password logic
+
 ## 5. Data Flow
 1. User opens the application -> **SplashView** initializes and checks authentication status.
 2. Authentication check:
    - **Yes** → Redirect to **SportsSelectionView**.
-   - **No** → Navigate to **AuthView**.
+   - **No** → Navigate to **AuthViews**.
 3. User selects a sport → Navigates to the chosen **SportView** with relevant data.
 4. User explores details → Navigates to respective **Detail Views** for more information.

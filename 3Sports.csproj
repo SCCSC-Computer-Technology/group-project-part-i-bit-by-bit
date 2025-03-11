@@ -90,7 +90,9 @@
     <Reference Include="Microsoft.Extensions.Primitives, Version=9.0.0.2, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Extensions.Primitives.9.0.2\lib\net462\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
     </Reference>
@@ -144,26 +146,26 @@
     <Compile Include="Services\authService.cs" />
     <Compile Include="Services\MultiFileDataService.cs" />
     <Compile Include="Services\TeamPerfAnalysisService.cs" />
-    <Compile Include="UI\LoginView.cs">
+    <Compile Include="UI\AuthViews\LoginView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\LoginView.Designer.cs">
+    <Compile Include="UI\AuthViews\LoginView.Designer.cs">
       <DependentUpon>LoginView.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\PasswordResetView.cs">
+    <Compile Include="UI\AuthViews\PasswordResetView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\PasswordResetView.Designer.cs">
+    <Compile Include="UI\AuthViews\PasswordResetView.Designer.cs">
       <DependentUpon>PasswordResetView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\AuthViews\RegisterView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AuthViews\RegisterView.Designer.cs">
+      <DependentUpon>RegisterView.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\RacingView.cs">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\RegisterView.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="UI\RegisterView.Designer.cs">
-      <DependentUpon>RegisterView.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\RugbyView.cs">
       <SubType>Form</SubType>
@@ -225,17 +227,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="UI\LoginView.resx">
+    <EmbeddedResource Include="UI\AuthViews\LoginView.resx">
       <DependentUpon>LoginView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\PasswordResetView.resx">
+    <EmbeddedResource Include="UI\AuthViews\PasswordResetView.resx">
       <DependentUpon>PasswordResetView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AuthViews\RegisterView.resx">
+      <DependentUpon>RegisterView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\RacingView.resx">
       <DependentUpon>RacingView.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UI\RegisterView.resx">
-      <DependentUpon>RegisterView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\SoccerView.resx">
       <DependentUpon>SoccerView.cs</DependentUpon>
@@ -283,7 +285,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="data\Info.txt" />
     <Content Include="ILLink\ILLink.Descriptors.LibraryBuild.xml" />
     <Content Include="Services\Users.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -305,7 +306,6 @@
     <None Include="Resources\Juventus Logo.png" />
     <None Include="Resources\Rugby.jpg" />
     <None Include="Resources\Soccer Playground.jpg" />
-    <Content Include="Services\Info.txt" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -36,146 +36,69 @@ namespace _3Sports.Services
                     command.Parameters.AddWithValue("@SecurityAnswer3", securityAnswer3);
 
                     int result = command.ExecuteNonQuery();
+
                     // True if registration is successful
                     return result > 0;
                 }
             }
         }
 
-        // Login a User
         public bool LoginUser(string username, string password)
         {
             string trimmedUsername = username.Trim().ToLower();
             using (SqlConnection connection = userDb.GetConnection())
             {
                 connection.Open();
-                string query = "SELECT PasswordHash FROM Users WHERE LOWER(Username) = LOWER(@Username) COLLATE SQL_Latin1_General_CP1_CI_AS";
+                string query = "SELECT PasswordHash, Email, LastLoggedIn FROM Users WHERE LOWER(Username) = LOWER(@Username) COLLATE SQL_Latin1_General_CP1_CI_AS";
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@Username", trimmedUsername);
-                    string storedHash = command.ExecuteScalar()?.ToString();
-
-                    // For debugging purposes - Log the login attempt
-                    Console.WriteLine($"Login attempt for Username: {trimmedUsername}");
-
-                    if (storedHash != null)
+                    using (SqlDataReader reader = command.ExecuteReader())
                     {
-                        // Logs the stored hash
-                        Console.WriteLine($"Stored hash found: {storedHash}");
-                        var result = passwordHasher.VerifyHashedPassword(null, storedHash, password);
-
-                        // Logs the verification result
-                        Console.WriteLine($"Password verification result: {result}");
-                        //return result == PasswordVerificationResult.Success;
-                        if (result == PasswordVerificationResult.Success)
+                        if (reader.Read())
                         {
-                            // Store the username in the session
-                            UserSession.CurrentUsername = username;
-                            return true;
+                            string storedHash = reader["PasswordHash"].ToString();
+                            string email = reader["Email"].ToString();
+
+                            // Handle nullable DateTime
+                            DateTime? lastLoggedIn = reader["LastLoggedIn"] as DateTime?;
+
+                            // For debugging purposes - Logs the login attempt
+                            Console.WriteLine($"Login attempt for Username: {trimmedUsername}");
+
+                            // Logs the stored hash
+                            Console.WriteLine($"Stored hash found: {storedHash}");
+
+                            var result = passwordHasher.VerifyHashedPassword(null, storedHash, password);
+
+                            // Logs the verification result
+                            Console.WriteLine($"Password verification result: {result}");
+
+                            if (result == PasswordVerificationResult.Success)
+                            {
+                                // Store the username, email, and LastLoggedIn in the session
+                                UserSession.CurrentUsername = username;
+                                UserSession.CurrentEmail = email;
+
+                                // Store the LastLoggedIn date as a string
+                                UserSession.LastLoggedIn = lastLoggedIn?.ToString();
+
+                                UpdateLastLoggedIn(username);
+                                return true;
+                            }
                         }
-                    }
-                    else
-                    {
-                        // Logs if no hash is found
-                        Console.WriteLine("Stored hash not found.");
+                        else
+                        {
+                            // Logs if no hash is found
+                            Console.WriteLine("Stored hash not found.");
+                        }
                     }
                 }
             }
             return false;
         }
 
-        //// Forgot Password
-        //public bool SendPasswordResetEmail(string email)
-        //{
-        //    // Generates a 6-digit reset code
-        //    string resetCode = Guid.NewGuid().ToString().Substring(0, 6);
-
-        //    // Save the reset code to the database
-        //    if (!SaveResetCodeToDatabase(email, resetCode))
-        //    {
-        //        return false;
-        //    }
-
-        //    string subject = "Password Reset Code";
-        //    string body = $"Your password reset code is: {resetCode}";
-
-        //    try
-        //    {
-        //        // Read SMTP settings from App.config
-        //        string smtpHost = ConfigurationManager.AppSettings["SmtpHost"];
-        //        int smtpPort = int.Parse(ConfigurationManager.AppSettings["SmtpPort"]); // Convert to int
-        //        string smtpUsername = ConfigurationManager.AppSettings["SmtpUsername"];
-        //        string smtpPassword = ConfigurationManager.AppSettings["SmtpPassword"];
-
-        //        using (SmtpClient client = new SmtpClient(smtpHost, smtpPort))
-        //        {
-        //            client.Credentials = new NetworkCredential(smtpUsername, smtpPassword);
-        //            client.EnableSsl = true;
-
-        //            MailMessage mailMessage = new MailMessage
-        //            {
-        //                From = new MailAddress(smtpUsername),
-        //                Subject = subject,
-        //                Body = body,
-        //                IsBodyHtml = false // Set to true if using HTML
-        //            };
-
-        //            mailMessage.To.Add(email);
-
-        //            client.Send(mailMessage);
-
-        //            return true; // Email sent successfully
-        //        }
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        Console.WriteLine($"Error sending email: {ex.Message}");
-        //        return false; // Email failed to send
-        //    }
-        //}
-
-        //// Save Reset Code to Database
-        //private bool SaveResetCodeToDatabase(string email, string resetCode)
-        //{
-        //    using (SqlConnection connection = userDb.GetConnection())
-        //    {
-        //        connection.Open();
-        //        string query = "UPDATE Users SET ResetCode = @ResetCode WHERE Email = @Email";
-
-        //        using (SqlCommand command = new SqlCommand(query, connection))
-        //        {
-        //            command.Parameters.AddWithValue("@ResetCode", resetCode);
-        //            command.Parameters.AddWithValue("@Email", email);
-
-        //            int result = command.ExecuteNonQuery();
-        //            return result > 0; // Return true if update was successful
-        //        }
-        //    }
-        //}
-
-        //// Verify Reset Code
-        //public bool VerifyResetCode(string email, string enteredCode)
-        //{
-        //    using (SqlConnection connection = userDb.GetConnection())
-        //    {
-        //        connection.Open();
-        //        string query = "SELECT ResetCode FROM Users WHERE Email = @Email";
-
-        //        using (SqlCommand command = new SqlCommand(query, connection))
-        //        {
-        //            command.Parameters.AddWithValue("@Email", email);
-
-        //            object result = command.ExecuteScalar();
-        //            if (result != null && result.ToString() == enteredCode)
-        //            {
-        //                // If Reset Code is valid
-        //                return true;
-        //            }
-        //        }
-        //    }
-        //    return false;
-        //}
 
         // Reset User Password
         public bool ResetPassword(string email, string newPassword)
@@ -225,7 +148,7 @@ namespace _3Sports.Services
                 }
             }
 
-            // Return null if no questions found
+            // Return null if no questions were found
             return null;
         }
 
@@ -258,6 +181,22 @@ namespace _3Sports.Services
 
             // Return false if answers don't match or user not found
             return false;
+        }
+
+        // Update the User's last login date
+        private void UpdateLastLoggedIn(string username)
+        {
+            using (SqlConnection connection = userDb.GetConnection())
+            {
+                connection.Open();
+                string query = "UPDATE Users SET LastLoggedIn = @LastLoggedIn WHERE Username = @Username";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@LastLoggedIn", DateTime.Now);
+                    command.Parameters.AddWithValue("@Username", username);
+                    command.ExecuteNonQuery();
+                }
+            }
         }
     }
 }
