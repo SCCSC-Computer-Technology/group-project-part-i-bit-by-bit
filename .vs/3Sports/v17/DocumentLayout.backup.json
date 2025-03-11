@@ -10,7 +10,33 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DocumentLayout.backup.json",
+              "DocumentMoniker": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.backup.json",
+              "RelativeDocumentMoniker": ".vs\\3Sports\\v17\\DocumentLayout.backup.json",
+              "ToolTip": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.backup.json*",
+              "RelativeToolTip": ".vs\\3Sports\\v17\\DocumentLayout.backup.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T16:41:19.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DocumentLayout.json",
+              "DocumentMoniker": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.json",
+              "RelativeDocumentMoniker": ".vs\\3Sports\\v17\\DocumentLayout.json",
+              "ToolTip": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.json",
+              "RelativeToolTip": ".vs\\3Sports\\v17\\DocumentLayout.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T16:41:11.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
