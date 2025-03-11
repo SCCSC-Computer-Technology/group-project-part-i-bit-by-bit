@@ -118,17 +118,59 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Soccer Playground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Soccer Playground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SelfPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SelfPlay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Rugby" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Rugby.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PlayerAction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayerAction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Juventus Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Juventus Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RaceCar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RaceCar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FAQs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FAQs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CarPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CarPoster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="verstappen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\verstappen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FIFAPlayers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FIFAPlayers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trophy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sainz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sainz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bortoleto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bortoleto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="alonso" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\alonso.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leclerc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leclerc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="trophy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trophy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doohan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doohan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ocon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ocon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tsunoda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tsunoda.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RacingPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RacingPoster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MessiAgen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MessiAgen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lawson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lawson.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ronaldo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ronaldo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,25 +178,58 @@
   <data name="SoccerPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SoccerPoster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RacingPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RacingPoster.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Rugby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rugby.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CarPoster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CarPoster.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Juventus Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Juventus Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="RaceCar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\RaceCar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="trophy3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\trophy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="PlayerAction" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PlayerAction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hulkenberg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hulkenberg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SelfPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SelfPlay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bearman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bearman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MessiAgen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MessiAgen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hadjar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hadjar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FIFAPlayers" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FIFAPlayers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hamilton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hamilton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="albon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\albon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="piastri" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\piastri.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="norris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\norris.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FAQs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAQs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wccTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wccTrophy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="antonelli" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\antonelli.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gasly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gasly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="russel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\russel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stroll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stroll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Soccer Playground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Soccer Playground.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="finalTrophy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\finalTrophy.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

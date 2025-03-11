@@ -1,6 +1,5 @@
 ﻿using _3SPorts;
 using System;
-using System.IO;
 using System.Windows.Forms;
 
 namespace _3Sports
@@ -13,8 +12,6 @@ namespace _3Sports
         [STAThread]
         static void Main()
         {
-            AppDomain.CurrentDomain.SetData("DataDirectory", Path.Combine(Application.StartupPath, "Services"));
-
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new SplashView());
