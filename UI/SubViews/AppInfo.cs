@@ -5,6 +5,8 @@
  * SETTINGS VIEW
 **/
 
+using _3Sports.classes;
+using _3Sports.Services;
 using System;
 using System.Windows.Forms;
 
@@ -12,10 +14,22 @@ namespace _3Sports.UI.SubForms
 {
     public partial class AppInfo : Form
     {
+        private readonly AuthService authService = new AuthService();
 
         public AppInfo()
         {
             InitializeComponent();
+            authService = new AuthService();
+
+            // User Info
+            string username = UserSession.CurrentUsername;
+            string email = UserSession.CurrentEmail;
+            string lastLoggedIn = UserSession.LastLoggedIn;
+
+            // Show the username
+            txtUser.Text = $"{username}";
+            txtEmail.Text = $"{email}";
+            txtLastLogged.Text = $"{lastLoggedIn}";
         }
 
         private void btnRestart_Click(object sender, EventArgs e)

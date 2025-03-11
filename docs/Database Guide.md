@@ -64,6 +64,23 @@ The Multi-File-Data-Service is responsible for handling sports data from multipl
 - `FilterDataByColumn()` → Filters data based on a specific column and value.
 - `GetUniqueColumnValue()` → Extracts distinct values from a column.
 
+# TEAM PERFORMANCE ANALYSIS SERVICE
+
+## Overview
+The Team-Perf-Analysis-Service is responsible for analyzing and providing predictions based from the sports data.
+
+### How It Works:
+1. The service receives a `DataTable` containing historical match data.
+2. Then it calculates performance metrics (wins, losses, draws, win rate) for a specified team from the data.
+3. And to predict matches, it retrieves the number of wins for each team from the data.
+4. Then it compares the win counts of the two teams to predict which team is more likely to win or if it will be a draw.
+5. Lastly, the service returns the calculated team performance statistics and the match prediction result.
+
+### Key Functions:
+- `GetTeamPerfStats()` → Calculates and returns performance statistics for a given team.
+- `PredictMatchOutcome()` → Predicts the outcome of a match between two teams.
+- `GetTeamWins()` → Retrieves the number of wins for a given team.
+
 ---
 
 ## My Continuous Efforts to Keep the Main + Helper Services Updated and Efficient working
@@ -83,7 +100,9 @@ The Multi-File-Data-Service is responsible for handling sports data from multipl
 | 03/04/25	 | Comment Updates				 | Updated my comments for better understanding		  |
 | 03/04/25   | Empty Result Handling		 | Early exit for empty matches						  |
 | 03/04/25   | Code Optimization			 | Cleaned code structure							  |
-| 03/10/25   | Quick Look					 | Quick Check and Minor Fixes						  |
+| 03/06/25	 | New Auth Service Created		 | Handles User register, login, and Password Retrive |
+| 03/08/25	 | Updated the Auth Service		 | Added feedbacks through code + Minor Comments	  |
+| 03/10/25	 | Quick Look					 | Quick check and Minor fixes						  |
 
 **Note:** To view necessary updates, I have commented `// Updated: ...` in the source code.
 
