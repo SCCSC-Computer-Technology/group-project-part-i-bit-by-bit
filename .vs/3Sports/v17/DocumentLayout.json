@@ -1,74 +1,63 @@
 {
-  "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\3Sports\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.backup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\3Sports\\v17\\DocumentLayout.backup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
-  "DocumentGroupContainers": [
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DocumentLayout.backup.json",
-              "DocumentMoniker": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.backup.json",
-              "RelativeDocumentMoniker": ".vs\\3Sports\\v17\\DocumentLayout.backup.json",
-              "ToolTip": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.backup.json*",
-              "RelativeToolTip": ".vs\\3Sports\\v17\\DocumentLayout.backup.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-11T16:41:19.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DocumentLayout.json",
-              "DocumentMoniker": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.json",
-              "RelativeDocumentMoniker": ".vs\\3Sports\\v17\\DocumentLayout.json",
-              "ToolTip": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.json",
-              "RelativeToolTip": ".vs\\3Sports\\v17\\DocumentLayout.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-11T16:41:11.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\3Sports\\v17\\DocumentLayout.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\.vs\\3Sports\\v17\\DocumentLayout.backup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\3Sports\\v17\\DocumentLayout.backup.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
-  "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\"
-}
+  {
+    "Version": 1,
+    "WorkspaceRootPath": "C:\\Users\\Adich\\Desktop\\3Sports\\",
+    "Documents": [
+      {
+        "AbsoluteMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|c:\\users\\adich\\desktop\\3sports\\docs\\database guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+        "RelativeMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|solutionrelative:docs\\database guide.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      },
+      {
+        "AbsoluteMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|c:\\users\\adich\\desktop\\3sports\\services\\teamperfanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+        "RelativeMoniker": "D:0:0:{ED46DD07-55F4-4591-A102-F31E0377E7E6}|3Sports.csproj|solutionrelative:services\\teamperfanalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      }
+    ],
+    "DocumentGroupContainers": [
+      {
+        "Orientation": 0,
+        "VerticalTabListWidth": 256,
+        "DocumentGroups": [
+          {
+            "DockedWidth": 200,
+            "SelectedChildIndex": 3,
+            "Children": [
+              {
+                "$type": "Bookmark",
+                "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              },
+              {
+                "$type": "Bookmark",
+                "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              },
+              {
+                "$type": "Document",
+                "DocumentIndex": 1,
+                "Title": "TeamPerfAnalysisService.cs",
+                "DocumentMoniker": "C:\\Users\\Adich\\Desktop\\3Sports\\Services\\TeamPerfAnalysisService.cs",
+                "RelativeDocumentMoniker": "Services\\TeamPerfAnalysisService.cs",
+                "ToolTip": "C:\\Users\\Adich\\Desktop\\3Sports\\Services\\TeamPerfAnalysisService.cs",
+                "RelativeToolTip": "Services\\TeamPerfAnalysisService.cs",
+                "ViewState": "AgIAAEkAAAAAAAAAAAAuwFsAAAAAAAAAAAAAAA==",
+                "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+                "WhenOpened": "2025-03-11T15:43:43.618Z",
+                "EditorCaption": ""
+              },
+              {
+                "$type": "Document",
+                "DocumentIndex": 0,
+                "Title": "Database Guide.md",
+                "DocumentMoniker": "C:\\Users\\Adich\\Desktop\\3Sports\\docs\\Database Guide.md",
+                "RelativeDocumentMoniker": "docs\\Database Guide.md",
+                "ToolTip": "C:\\Users\\Adich\\Desktop\\3Sports\\docs\\Database Guide.md",
+                "RelativeToolTip": "docs\\Database Guide.md",
+                "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+                "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+                "WhenOpened": "2025-03-11T15:41:39.789Z",
+                "EditorCaption": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
