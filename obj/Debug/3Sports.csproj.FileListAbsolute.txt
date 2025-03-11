@@ -1,75 +1,38 @@
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\3Sports.csproj.AssemblyReference.cache
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3SPorts.SplashView.resources
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3Sports.Properties.Resources.resources
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3Sports.UI.RacingSport.resources
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3Sports.UI.SoccerView.resources
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3Sports.UI.SportSelectView.resources
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3Sports.UI.SubForms.AnalysisForm.resources
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3Sports.UI.SubForms.FaqForm.resources
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3Sports.UI.SubForms.LeagueForm.resources
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3Sports.UI.SubForms.SettingsForm.resources
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\3Sports.csproj.GenerateResource.cache
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\3Sports.csproj.CoreCompileInputs.cache
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\3Sports.exe.config
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\3Sports.exe
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\3Sports.pdb
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\CsvHelper.dll
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\Microsoft.Bcl.HashCode.dll
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\System.Buffers.dll
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\System.Memory.dll
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\System.Numerics.Vectors.dll
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\CsvHelper.xml
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\Microsoft.Bcl.HashCode.xml
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\System.Buffers.xml
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\System.Memory.xml
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\System.Numerics.Vectors.xml
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\3Sports.csproj.Up2Date
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\3Sports.exe
-C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\3Sports.pdb
-<<<<<<< Updated upstream
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\3Sports.exe.config
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\3Sports.exe
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\3Sports.pdb
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\CsvHelper.dll
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\Microsoft.Bcl.HashCode.dll
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\System.Buffers.dll
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\System.Memory.dll
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\CsvHelper.xml
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\Microsoft.Bcl.HashCode.xml
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\System.Buffers.xml
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\System.Memory.xml
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.csproj.AssemblyReference.cache
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\_3SPorts.SplashView.resources
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.Properties.Resources.resources
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.RacingSport.resources
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SoccerView.resources
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SportSelectView.resources
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SubForms.AnalysisForm.resources
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SubForms.FaqForm.resources
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SubForms.LeagueForm.resources
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SubForms.SettingsForm.resources
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.csproj.GenerateResource.cache
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.csproj.CoreCompileInputs.cache
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.csproj.Up2Date
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.exe
-C:\Users\adamq\source\repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.pdb
-=======
 C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\data\PremiershipRugbyData.mdf
 C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\data\PremiershipRugbyData_log.ldf
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\3Sports.exe.config
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\3Sports.exe
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\3Sports.pdb
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\CsvHelper.dll
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\System.Buffers.dll
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\System.Memory.dll
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\CsvHelper.xml
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\System.Buffers.xml
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\System.Memory.xml
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.csproj.AssemblyReference.cache
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3SPorts.SplashView.resources
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.Properties.Resources.resources
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.RacingSport.resources
 C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.RugbyView.resources
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SoccerView.resources
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SportSelectView.resources
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SubForms.AnalysisForm.resources
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SubForms.FaqForm.resources
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SubForms.LeagueForm.resources
 C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SubForms.RugbyPlayersView.resources
->>>>>>> Stashed changes
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\_3Sports.UI.SubForms.SettingsForm.resources
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.csproj.GenerateResource.cache
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.csproj.CoreCompileInputs.cache
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.csproj.Up2Date
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.exe
+C:\Users\adamq\Source\Repos\group-project-part-i-bit-by-bit\obj\Debug\3Sports.pdb
