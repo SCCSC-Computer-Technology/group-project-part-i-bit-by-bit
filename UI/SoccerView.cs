@@ -6,6 +6,7 @@
 **/
 
 
+using _3Sports.classes;
 using _3Sports.Services;
 using _3Sports.UI.SubForms;
 using System;
@@ -19,6 +20,8 @@ namespace _3Sports.UI
 {
     public partial class SoccerView : Form
     {
+        private readonly AuthService authService = new AuthService();
+
         // Service that will load and manage the soccer data
         private MultiFileDataService _dataService;
 
@@ -31,6 +34,11 @@ namespace _3Sports.UI
         public SoccerView()
         {
             InitializeComponent();
+            authService = new AuthService();
+            string username = UserSession.CurrentUsername;
+
+            // Show the username
+            lblUsername.Text = $"{username}";
         }
 
         private async void SoccerSport_Load(object sender, EventArgs e)
@@ -89,7 +97,7 @@ namespace _3Sports.UI
             string selectedTeam = cmbFavTeamSelection.SelectedItem.ToString();
             string selectedSeason = "Current";
 
-            LeagueForm tournaments = new LeagueForm(_dataService, selectedTeam, selectedSeason, selectedTeam); // Pass selected team
+            LeagueView tournaments = new LeagueView(_dataService, selectedTeam, selectedSeason, selectedTeam); // Pass selected team
             tournaments.Show();
 
             this.Hide();
@@ -98,7 +106,7 @@ namespace _3Sports.UI
         // Opens the FAQ Section Form
         private void FAQsCard_Click(object sender, EventArgs e)
         {
-            FaqForm tournaments = new FaqForm();
+            FaqView tournaments = new FaqView();
             tournaments.Show();
             this.Hide();
         }
@@ -106,7 +114,7 @@ namespace _3Sports.UI
         // Opens Data Analysis + Prediction Form
         private void btnAnalyzeData_Click_1(object sender, EventArgs e)
         {
-            AnalysisForm analysisForm = new AnalysisForm();
+            AnalysisView analysisForm = new AnalysisView();
             analysisForm.Show();
 
             this.Close();

@@ -75,16 +75,16 @@ namespace _3SPorts
 
                     // This will hide Splah View
                     this.Hide();
-                    var SportSelectView = new _3Sports.UI.SportSelectView();
+                    //var SportSelectView = new _3Sports.UI.SportSelectView();
 
                     // Then show Sport Selection view
-                    SportSelectView.Show();
+                    //SportSelectView.Show();
 
                     // ........................................................
                     // Add it when the auth is implemented
 
-                    //UI.LoginView loginView = new UI.LoginView();
-                    //loginView.Show();  // And then show up the Login View
+                    _3Sports.UI.LoginView loginForm = new _3Sports.UI.LoginView();
+                    loginForm.Show();  // And then show up the Login View
                 }
             };
             loadingTimer.Start();

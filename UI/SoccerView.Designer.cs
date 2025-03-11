@@ -60,6 +60,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
             this.btnAnalyzeData = new System.Windows.Forms.Button();
+            this.lblUsername = new System.Windows.Forms.Label();
             this.panel13.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
@@ -214,6 +215,7 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.panel4.Controls.Add(this.lblUsername);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel4.Location = new System.Drawing.Point(1014, 0);
@@ -427,6 +429,17 @@
             this.btnAnalyzeData.UseVisualStyleBackColor = false;
             this.btnAnalyzeData.Click += new System.EventHandler(this.btnAnalyzeData_Click_1);
             // 
+            // lblUsername
+            // 
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.ForeColor = System.Drawing.Color.White;
+            this.lblUsername.Location = new System.Drawing.Point(85, 29);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(104, 28);
+            this.lblUsername.TabIndex = 1;
+            this.lblUsername.Text = "username";
+            // 
             // SoccerView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -499,5 +512,6 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button btnAnalyzeData;
+        private System.Windows.Forms.Label lblUsername;
     }
 }

@@ -5,6 +5,8 @@
  * SOCCER SELECT VIEW
 **/
 
+using _3Sports.classes;
+using _3Sports.Services;
 using _3Sports.UI.SubForms;
 using System.Drawing;
 using System.Windows.Forms;
@@ -14,9 +16,23 @@ namespace _3Sports.UI
     public partial class SportSelectView : Form
     {
         private string selectedSport = "";
+        private readonly AuthService authService = new AuthService();
+
         public SportSelectView()
         {
             InitializeComponent();
+            authService = new AuthService();
+            string username = UserSession.CurrentUsername;
+
+            // Show the username
+            if (!string.IsNullOrEmpty(username))
+            {
+                lblUsername.Text = $"Welcome, {username}!";
+            }
+            else
+            {
+                lblUsername.Text = "Welcome, Guest!"; // Or handle the error appropriately
+            }
 
             // Assigning the event handlers for the card selection
             racingBox.Click += (sender, e) => SelectSport("Racing", racingBox);
@@ -97,9 +113,11 @@ namespace _3Sports.UI
             }
         }
 
+
         private void btnSetting_Click_1(object sender, System.EventArgs e)
         {
-            SettingsForm settingForm = new SettingsForm();
+            this.Hide();
+            AppInfo settingForm = new AppInfo();
             settingForm.Show();
         }
     }

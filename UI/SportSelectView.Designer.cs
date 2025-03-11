@@ -44,6 +44,7 @@
             this.lblRTag = new System.Windows.Forms.Label();
             this.lblRacing = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblUsername = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.rugbyBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -57,6 +58,7 @@
             // 
             this.panel2.BackgroundImage = global::_3Sports.Properties.Resources.Soccer_Playground;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.lblUsername);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.btnContinue);
             this.panel2.Controls.Add(this.btnSetting);
@@ -249,6 +251,17 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // lblUsername
+            // 
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.BackColor = System.Drawing.Color.Transparent;
+            this.lblUsername.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.Location = new System.Drawing.Point(83, 84);
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(23, 23);
+            this.lblUsername.TabIndex = 21;
+            this.lblUsername.Text = "la";
+            // 
             // SportSelectView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -294,5 +307,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnContinue;
         private System.Windows.Forms.Button btnSetting;
+        private System.Windows.Forms.Label lblUsername;
     }
 }
