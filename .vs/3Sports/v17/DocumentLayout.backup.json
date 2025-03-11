@@ -1,7 +1,4 @@
 {
-  "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\",
-  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -23,5 +20,8 @@
         }
       ]
     }
-  ]
+  ],
+  "Documents": [],
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adamq\\source\\repos\\group-project-part-i-bit-by-bit\\"
 }
