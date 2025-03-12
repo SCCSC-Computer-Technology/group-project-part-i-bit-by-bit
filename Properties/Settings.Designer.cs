@@ -33,5 +33,27 @@ namespace _3Sports.Properties {
                 return ((string)(this["UsersConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Adich\\Desktop\\3Sport" +
+            "s\\CSVPrac.mdf;Integrated Security=True")]
+        public string CSVPracConnectionString {
+            get {
+                return ((string)(this["CSVPracConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Adich\\Desktop\\3Sport" +
+            "s\\PremiershipRugbyData.mdf;Integrated Security=True")]
+        public string PremiershipRugbyDataConnectionString {
+            get {
+                return ((string)(this["PremiershipRugbyDataConnectionString"]));
+            }
+        }
     }
 }

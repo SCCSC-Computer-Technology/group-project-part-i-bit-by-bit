@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\3Sports.csproj.AssemblyReference.cache
 C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3SPorts.SplashView.resources
 C:\repos\Programs - Practices\C# Course - 2025\3Sports\obj\Debug\_3Sports.Properties.Resources.resources
@@ -112,6 +114,7 @@ C:\Users\Adich\Desktop\3Sports\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\Adich\Desktop\3Sports\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Adich\Desktop\3Sports\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Adich\Desktop\3Sports\bin\Debug\System.ValueTuple.xml
+>>>>>>> bdb247e85ed62b664ad127e2a6e097e080acc31d
 C:\Users\Adich\Desktop\3Sports\obj\Debug\3Sports.csproj.AssemblyReference.cache
 C:\Users\Adich\Desktop\3Sports\obj\Debug\_3SPorts.SplashView.resources
 C:\Users\Adich\Desktop\3Sports\obj\Debug\_3Sports.Properties.Resources.resources
@@ -130,3 +133,15 @@ C:\Users\Adich\Desktop\3Sports\obj\Debug\3Sports.csproj.CoreCompileInputs.cache
 C:\Users\Adich\Desktop\3Sports\obj\Debug\3Sports.csproj.Up2Date
 C:\Users\Adich\Desktop\3Sports\obj\Debug\3Sports.exe
 C:\Users\Adich\Desktop\3Sports\obj\Debug\3Sports.pdb
+C:\Users\Adich\Desktop\3Sports\obj\Debug\_3Sports.UI.RacingMoreData.resources
+C:\Users\Adich\Desktop\3Sports\obj\Debug\_3Sports.UI.RacingSeasons.resources
+C:\Users\Adich\Desktop\3Sports\bin\Debug\CSVPrac.mdf
+C:\Users\Adich\Desktop\3Sports\bin\Debug\CSVPrac_log.ldf
+C:\Users\Adich\Desktop\3Sports\bin\Debug\PremiershipRugbyData.mdf
+C:\Users\Adich\Desktop\3Sports\bin\Debug\PremiershipRugbyData_log.ldf
+C:\Users\Adich\Desktop\3Sports\obj\Debug\_3Sports.UI.RugbyView.resources
+C:\Users\Adich\Desktop\3Sports\obj\Debug\_3Sports.UI.SubForms.RugbyPlayersView.resources
+C:\Users\Adich\Desktop\3Sports\bin\Debug\data\CSVPrac.mdf
+C:\Users\Adich\Desktop\3Sports\bin\Debug\data\CSVPrac_log.ldf
+C:\Users\Adich\Desktop\3Sports\bin\Debug\data\PremiershipRugbyData.mdf
+C:\Users\Adich\Desktop\3Sports\bin\Debug\data\PremiershipRugbyData_log.ldf

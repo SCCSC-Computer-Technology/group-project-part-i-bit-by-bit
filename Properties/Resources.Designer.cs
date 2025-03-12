@@ -93,6 +93,16 @@ namespace _3Sports.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BathRugby {
+            get {
+                object obj = ResourceManager.GetObject("BathRugby", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bearman {
             get {
                 object obj = ResourceManager.GetObject("bearman", resourceCulture);
@@ -113,6 +123,16 @@ namespace _3Sports.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BristolRugby {
+            get {
+                object obj = ResourceManager.GetObject("BristolRugby", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CarPoster {
             get {
                 object obj = ResourceManager.GetObject("CarPoster", resourceCulture);
@@ -126,6 +146,16 @@ namespace _3Sports.Properties {
         internal static System.Drawing.Bitmap doohan {
             get {
                 object obj = ResourceManager.GetObject("doohan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ExeterChiefs {
+            get {
+                object obj = ResourceManager.GetObject("ExeterChiefs", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,6 +203,16 @@ namespace _3Sports.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap GloucesterRugby {
+            get {
+                object obj = ResourceManager.GetObject("GloucesterRugby", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hadjar {
             get {
                 object obj = ResourceManager.GetObject("hadjar", resourceCulture);
@@ -186,6 +226,16 @@ namespace _3Sports.Properties {
         internal static System.Drawing.Bitmap hamilton {
             get {
                 object obj = ResourceManager.GetObject("hamilton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Harlequins {
+            get {
+                object obj = ResourceManager.GetObject("Harlequins", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,6 +283,16 @@ namespace _3Sports.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap LeicesterTigers {
+            get {
+                object obj = ResourceManager.GetObject("LeicesterTigers", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MessiAgen {
             get {
                 object obj = ResourceManager.GetObject("MessiAgen", resourceCulture);
@@ -243,9 +303,29 @@ namespace _3Sports.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap NewcastleFalcons {
+            get {
+                object obj = ResourceManager.GetObject("NewcastleFalcons", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap norris {
             get {
                 object obj = ResourceManager.GetObject("norris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NorthamptonSaints {
+            get {
+                object obj = ResourceManager.GetObject("NorthamptonSaints", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +416,26 @@ namespace _3Sports.Properties {
         internal static System.Drawing.Bitmap sainz {
             get {
                 object obj = ResourceManager.GetObject("sainz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SaleSharks {
+            get {
+                object obj = ResourceManager.GetObject("SaleSharks", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Saracens {
+            get {
+                object obj = ResourceManager.GetObject("Saracens", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

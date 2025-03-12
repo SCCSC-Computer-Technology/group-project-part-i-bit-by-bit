@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -132,9 +132,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="classes\F1Class.cs" />
     <Compile Include="classes\User.cs" />
     <Compile Include="classes\UserSession.cs" />
+    <Compile Include="data\PremiershipRugbyDataDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PremiershipRugbyDataDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="data\UserDb.cs" />
+    <Compile Include="data\UsersDataSet.Designer.cs" />
+    <Compile Include="data\UsersDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,19 +176,32 @@
     <Compile Include="UI\AuthViews\RegisterView.Designer.cs">
       <DependentUpon>RegisterView.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\RacingView.cs">
+    <Compile Include="UI\Racing\F1DB.Designer.cs" />
+    <Compile Include="UI\Racing\RacingMoreData.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\RugbyView.cs">
+    <Compile Include="UI\Racing\RacingMoreData.Designer.cs">
+      <DependentUpon>RacingMoreData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Racing\RacingSeasons.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\RugbyView.Designer.cs">
+    <Compile Include="UI\Racing\RacingSeasons.Designer.cs">
+      <DependentUpon>RacingSeasons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Racing\RacingView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Rugby\RugbyView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Rugby\RugbyView.Designer.cs">
       <DependentUpon>RugbyView.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\SoccerView.cs">
+    <Compile Include="UI\Soccer\SoccerView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\SoccerView.Designer.cs">
+    <Compile Include="UI\Soccer\SoccerView.Designer.cs">
       <DependentUpon>SoccerView.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\SportSelectView.cs">
@@ -209,10 +234,11 @@
     <Compile Include="UI\SubViews\AppInfo.Designer.cs">
       <DependentUpon>AppInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="UsersDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    <Compile Include="UI\SubViews\RugbyPlayersView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SubViews\RugbyPlayersView.Designer.cs">
+      <DependentUpon>RugbyPlayersView.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -236,10 +262,19 @@
     <EmbeddedResource Include="UI\AuthViews\RegisterView.resx">
       <DependentUpon>RegisterView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\RacingView.resx">
+    <EmbeddedResource Include="UI\Racing\RacingMoreData.resx">
+      <DependentUpon>RacingMoreData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Racing\RacingSeasons.resx">
+      <DependentUpon>RacingSeasons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Racing\RacingView.resx">
       <DependentUpon>RacingView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\SoccerView.resx">
+    <EmbeddedResource Include="UI\Rugby\RugbyView.resx">
+      <DependentUpon>RugbyView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Soccer\SoccerView.resx">
       <DependentUpon>SoccerView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\SportSelectView.resx">
@@ -257,6 +292,31 @@
     <EmbeddedResource Include="UI\SubViews\AppInfo.resx">
       <DependentUpon>AppInfo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UI\SubViews\RugbyPlayersView.resx">
+      <DependentUpon>RugbyPlayersView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="data\PremiershipRugbyDataDataSet.xsc">
+      <DependentUpon>PremiershipRugbyDataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="data\PremiershipRugbyDataDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PremiershipRugbyDataDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\PremiershipRugbyDataDataSet.xss">
+      <DependentUpon>PremiershipRugbyDataDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="data\UsersDataSet.xsc">
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="data\UsersDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>UsersDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="data\UsersDataSet.xss">
+      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    </None>
     <None Include="docs\Architecture.md" />
     <None Include="docs\Database Guide.md" />
     <None Include="packages.config" />
@@ -269,23 +329,53 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="UsersDataSet.xsc">
-      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    <None Include="UI\Racing\F1DB.xsc">
+      <DependentUpon>F1DB.xsd</DependentUpon>
     </None>
-    <None Include="UsersDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>UsersDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="UsersDataSet.xss">
-      <DependentUpon>UsersDataSet.xsd</DependentUpon>
+    <None Include="UI\Racing\F1DB.xsd" />
+    <None Include="UI\Racing\F1DB.xss">
+      <DependentUpon>F1DB.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="data\CSVPrac.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\CSVPrac_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>CSVPrac.mdf</DependentUpon>
+    </Content>
+    <Content Include="data\PremiershipRugbyData.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\PremiershipRugbyData_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>PremiershipRugbyData.mdf</DependentUpon>
+    </Content>
     <Content Include="ILLink\ILLink.Descriptors.LibraryBuild.xml" />
+    <Content Include="Resources\BathRugby.png" />
+    <None Include="Resources\BathRugby1.png" />
+    <Content Include="Resources\BristolRugby.png" />
+    <None Include="Resources\BristolRugby1.png" />
+    <Content Include="Resources\ExeterChiefs.png" />
+    <None Include="Resources\ExeterChiefs1.png" />
+    <Content Include="Resources\GloucesterRugby.png" />
+    <None Include="Resources\GloucesterRugby1.png" />
+    <Content Include="Resources\Harlequins.png" />
+    <None Include="Resources\Harlequins1.png" />
+    <Content Include="Resources\LeicesterTigers.png" />
+    <None Include="Resources\LeicesterTigers1.png" />
+    <Content Include="Resources\NewcastleFalcons.png" />
+    <None Include="Resources\NewcastleFalcons1.png" />
+    <Content Include="Resources\NorthamptonSaints.png" />
+    <None Include="Resources\NorthamptonSaints1.png" />
+    <Content Include="Resources\SaleSharks.png" />
+    <None Include="Resources\SaleSharks1.png" />
+    <Content Include="Resources\Saracens.png" />
+    <None Include="Resources\Saracens1.png" />
     <Content Include="Services\Users.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
