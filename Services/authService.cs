@@ -43,6 +43,7 @@ namespace _3Sports.Services
             }
         }
 
+        // Login a User
         public bool LoginUser(string username, string password)
         {
             string trimmedUsername = username.Trim().ToLower();

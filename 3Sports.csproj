@@ -155,6 +155,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Services\authService.cs" />
     <Compile Include="Services\MultiFileDataService.cs" />
     <Compile Include="Services\TeamPerfAnalysisService.cs" />
@@ -245,14 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="UI\AuthViews\LoginView.resx">
       <DependentUpon>LoginView.cs</DependentUpon>
     </EmbeddedResource>
@@ -360,6 +360,7 @@
     <None Include="Resources\BathRugby1.png" />
     <Content Include="Resources\BristolRugby.png" />
     <None Include="Resources\BristolRugby1.png" />
+    <None Include="Resources\CarPoster.png" />
     <Content Include="Resources\ExeterChiefs.png" />
     <None Include="Resources\ExeterChiefs1.png" />
     <Content Include="Resources\GloucesterRugby.png" />
@@ -388,7 +389,6 @@
     <None Include="Resources\SelfPlay.png" />
     <None Include="Resources\PlayerAction.png" />
     <None Include="Resources\RaceCar.png" />
-    <None Include="Resources\CarPoster.png" />
     <None Include="Resources\RacingPoster.jpg" />
     <None Include="Resources\SoccerPoster.jpg" />
     <None Include="Resources\Ronaldo1.png" />
