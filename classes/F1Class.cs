@@ -1,8 +1,14 @@
-﻿namespace _3Sports.UI
-{
-    public class F1Class : F1DB
-    {
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
+namespace _3Sports.UI
+{
+    public class F1Class:F1DB
+    {
+        
         //CurrentConstructors
         public int ConstructorID { get; set; }
         public string TeamName { get; set; }
@@ -15,7 +21,7 @@
         public string Base { get; set; }
         public string PowerUnit { get; set; }
 
-        public F1Class(int constructorID, string teamName, string principal, string driver1, int d1Num, string driver2, int d2Num, int championships, string _base, string powerUnit)
+        public F1Class (int constructorID, string teamName, string principal, string driver1, int d1Num, string driver2, int d2Num, int championships, string _base, string powerUnit)
         {
             ConstructorID = constructorID;
             TeamName = teamName;

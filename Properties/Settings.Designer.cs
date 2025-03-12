@@ -38,7 +38,7 @@ namespace _3Sports.Properties {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Adich\\Desktop\\3Sport" +
-            "s\\CSVPrac.mdf;Integrated Security=True")]
+            "s\\data\\CSVPrac.mdf;Integrated Security=True")]
         public string CSVPracConnectionString {
             get {
                 return ((string)(this["CSVPracConnectionString"]));

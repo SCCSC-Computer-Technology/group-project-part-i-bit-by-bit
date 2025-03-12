@@ -204,10 +204,10 @@
     <Compile Include="UI\Soccer\SoccerView.Designer.cs">
       <DependentUpon>SoccerView.cs</DependentUpon>
     </Compile>
-    <Compile Include="UI\SportSelectView.cs">
+    <Compile Include="UI\Soccer\SportSelectView.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UI\SportSelectView.Designer.cs">
+    <Compile Include="UI\Soccer\SportSelectView.Designer.cs">
       <DependentUpon>SportSelectView.cs</DependentUpon>
     </Compile>
     <Compile Include="UI\SubViews\AnalysisView.cs">
@@ -277,7 +277,7 @@
     <EmbeddedResource Include="UI\Soccer\SoccerView.resx">
       <DependentUpon>SoccerView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UI\SportSelectView.resx">
+    <EmbeddedResource Include="UI\Soccer\SportSelectView.resx">
       <DependentUpon>SportSelectView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UI\SubViews\AnalysisView.resx">
