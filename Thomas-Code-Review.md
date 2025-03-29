@@ -13,7 +13,7 @@ I find the code for this form to be well documented. One thing that I would incl
 I find the code for this form to be well documented. I noticed that when methods from AuthService are used, there is not a try-catch to handle any errors with the database.
 
 ### ***RegisterView Form Code***
-I find the code for this form to be well documented. As with the PasswordResetView form, this form also creates a new LoginView form instead of unhiding the existing one. One change that I would make her is to trim all the sign-up info strings before working with them. Also converting the email and username to lowercase will improve the user’s experience (UX). I noticed that there is no validation to ensure that the user selects a security question, just that they input an answer.	
+I find the code for this form to be well documented. As with the PasswordResetView form, this form also creates a new LoginView form instead of unhiding the existing one. One change that I would make her is to trim all the sign-up info strings before working with them. Also converting the email and username to lowercase will improve the user’s experience. I noticed that there is no validation to ensure that the user selects a security question, just that they input an answer.	
 
 ### ***SportSelectView Form Code***
 I find the code for this form to be well documented. I did not see an problems with the code, except that an AuthService variable was declared but never used. 
@@ -58,3 +58,6 @@ if(team == homeTeam)
 }
 return false;
 ```
+
+### ***Testing***
+I found that when I enter just spaces in the register form, I can still sign up. I can also enter an answer to a security question without actually selecting one.
